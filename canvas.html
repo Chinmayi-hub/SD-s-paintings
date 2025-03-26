@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chinmayi's Canvas Paintings</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(45deg, #ff9a9e, #fad0c4, #ffdde1);
+            background-size: 400% 400%;
+            animation: gradientBG 10s ease infinite;
+            color: white;
+        }
+        @keyframes gradientBG {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 40px;
+            background: rgba(102, 92, 187, 0.7);
+            border-radius: 15px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+        }
+        h1 { color: #ffd700; }
+        p { font-size: 18px; }
+        .artist-photo {
+            width: 200px;
+            border-radius: 50%;
+            margin-top: 20px;
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 25px;
+            background: #ffd700;
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            font-size: 18px;
+        }
+        .btn:hover { background: #ffcc00; }
+        .contact {
+            margin-top: 30px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Welcome to Shachi's Art World</h1>
+        <img src="artist.jpg" alt="Artist Photo" class="artist-photo">
+        <p>NAMASTE🙏🏻</p><br>
+        <p>"Welcome to a world where colors dance, emotions take shape, and imagination finds its voice! 🎨✨ Each of my paintings is a journey—an expression of passion, serenity, and the beauty hidden in everyday moments. From the calming blues of the ocean to the fiery embrace of a sunset, every brushstroke is infused with energy and emotion, making each artwork a one-of-a-kind masterpiece. These paintings aren’t just decorations; they are windows into a world of creativity, ready to breathe life into your home or workspace. Whether you're an art enthusiast, a collector, or someone looking for the perfect piece to transform your space, you'll find something here that speaks to your soul. Let these paintings inspire, heal, and create an ambiance that reflects your unique taste. Explore my gallery and take home more than just a painting—take home a story, a feeling, and a masterpiece that lasts forever."</p>
+        <p>Click below to explore my gallery of paintings.</p>
+
+        <a href="gallery.html" class="btn">View Gallery</a>
+
+        <div class="contact">
+            <p>📧 Email: <a href="mailto:your-email@example.com" style="color: #ffd700;">shachi0629@gmail.com</a></p>
+            <p>📱 Phone: +91 7348983848</p>
+        </div>
+    </div>
+
+</body>
+</html>
